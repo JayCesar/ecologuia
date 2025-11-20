@@ -44,7 +44,7 @@ services:
     image: funkyfuture/deck-chores:1
     restart: unless-stopped
     environment:
-      TIMEZONE: Europe/Paris
+      TIMEZONE: America/Sao_Paulo
       LABEL_NAMESPACE: cron
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
