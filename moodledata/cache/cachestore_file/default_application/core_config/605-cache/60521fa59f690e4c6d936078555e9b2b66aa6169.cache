@@ -1,1 +1,32 @@
-a:7:{s:15:"backgroundimage";s:0:"";s:10:"brandcolor";s:0:"";s:6:"preset";s:12:"default.scss";s:11:"presetfiles";s:0:"";s:4:"scss";s:0:"";s:7:"scsspre";s:0:"";s:7:"version";s:10:"2018120300";}
+a:7:{s:15:"backgroundimage";s:0:"";s:10:"brandcolor";s:0:"";s:6:"preset";s:12:"default.scss";s:11:"presetfiles";s:0:"";s:4:"scss";s:579:".custom-top-header {
+    background: #ffffff;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 10px 0;
+}
+
+.custom-header-wrapper {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.custom-header-logo {
+    height: 60px;
+}
+
+.custom-header-menu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #2f6f8f !important;
+    margin-right: 30px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.custom-header-menu a:hover {
+    border-bottom: 2px solid #2f6f8f;
+    padding-bottom: 4px;
+}
+";s:7:"scsspre";s:0:"";s:7:"version";s:10:"2018120300";}
