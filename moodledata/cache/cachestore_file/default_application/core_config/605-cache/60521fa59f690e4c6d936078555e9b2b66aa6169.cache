@@ -1,4 +1,4 @@
-a:7:{s:15:"backgroundimage";s:0:"";s:10:"brandcolor";s:0:"";s:6:"preset";s:12:"default.scss";s:11:"presetfiles";s:0:"";s:4:"scss";s:644:"/* Remove background e empurra a barra do Moodle pra cima */
+a:7:{s:15:"backgroundimage";s:0:"";s:10:"brandcolor";s:0:"";s:6:"preset";s:12:"default.scss";s:11:"presetfiles";s:0:"";s:4:"scss";s:716:"/* Remove background e empurra a barra do Moodle pra cima */
 .custom-header-menu {
     position: absolute;
     top: 0;
@@ -8,6 +8,7 @@ a:7:{s:15:"backgroundimage";s:0:"";s:10:"brandcolor";s:0:"";s:6:"preset";s:12:"d
     gap: 30px;
     height: 60px;
     align-items: center;
+    margin-bottom: 4px;
 }
 
 /* Estilo do texto igual à referência */
@@ -16,6 +17,10 @@ a:7:{s:15:"backgroundimage";s:0:"";s:10:"brandcolor";s:0:"";s:6:"preset";s:12:"d
     font-weight: 600;
     text-decoration: none;
     font-size: 15px;
+}
+
+.custom-header-logo{
+    max-height:75px;
 }
 
 .custom-header-menu a:hover {
@@ -28,5 +33,4 @@ a:7:{s:15:"backgroundimage";s:0:"";s:10:"brandcolor";s:0:"";s:6:"preset";s:12:"d
     height: 60px;
     position: relative;
     z-index: 2000;
-}
-";s:7:"scsspre";s:0:"";s:7:"version";s:10:"2018120300";}
+}";s:7:"scsspre";s:0:"";s:7:"version";s:10:"2018120300";}
